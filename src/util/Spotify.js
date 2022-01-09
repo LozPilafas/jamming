@@ -3,7 +3,7 @@
 
 let accessToken;
 
-const clientID='8c9e18dfa24f4f5e8925544826390be5';
+const clientID='xxsecretxx';
 const redirect_uri='http://localhost:3000/'
 
 const Spotify =
