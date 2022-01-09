@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App.js';
 import reportWebVitals from './reportWebVitals';
-import Spotify from './util/Spotify';
 
 
 ReactDOM.render(
@@ -22,5 +21,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-//console.log(Spotify.savePlaylist('adasd','asdasd'))

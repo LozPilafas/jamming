@@ -62,16 +62,22 @@ const Spotify =
             {
                 return [];
             }
+            console.log(data.tracks)
             return data.tracks.items.map(item=>
-                ({
+                (
+                    {
+                    
                     
                     'id':item.id,
                     'name':item.name,
                     'artist':item.artists[0].name,
                     'album':item.album.name,
-                    'uri':item.uri
+                    'uri':item.uri,
+                    'imgsrc':item.album.images[0].url
                     
-                }))
+                    
+                }
+                ))
                 
         })
        

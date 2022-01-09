@@ -44,8 +44,11 @@ class Track extends react.Component
         return(
             <div className="Track">
   <div className="Track-information">
+      
+      <img alt='Track ' src={this.props.track.imgsrc} width='50px' height='50px'></img>
+      <div className='Track-information2'>
     <h3>{this.props.track.name}</h3>
-    <p> {this.props.track.artist} | {this.props.track.album}</p>
+    <p> {this.props.track.artist} | {this.props.track.album}</p></div>
   </div>
    {this.renderAction()} 
 </div>
