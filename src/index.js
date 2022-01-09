@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App.js';
 import reportWebVitals from './reportWebVitals';
+import Spotify from './util/Spotify';
 
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+Spotify.getAccessToken()
 
 
 // If you want to start measuring performance in your app, pass a function
